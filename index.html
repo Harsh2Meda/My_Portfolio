@@ -1,109 +1,269 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio Harsh</title>
 
     <!--favicon(logo)-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="images/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="images/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    
-</head>
-<body>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="images/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="images/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
     <header>
-        <a href="#" class="logo">HARSH MEDA</a>
+      <a href="#" class="logo">HARSH MEDA</a>
 
-        <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#skills" >Skills</a>
-            <a href="#projects" >Projects</a>
-            <a href="#contact" >Contact</a>
-        </nav>
+      <nav>
+        <a href="#home" class="active"> Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
-    <section class="home">
-        <div class="home-img">
-            <img src="main.jpg" alt="">
+    <section class="home" id="home">
+      <div class="home-img">
+        <img src="main.jpg" alt="" />
+      </div>
+      <div class="home-content">
+        <h1>Hi, It's <span>HARSH</span></h1>
+        <h3 class="typing-text">I'm a <span></span></h3>
+        <p>
+          As a <span>Web Developer</span>, I blend creativity and technical
+          expertise to build innovative solutions. My journey in tech spans
+          <span
+            >Software Development, Game Design, and competitive
+            programming</span
+          >, each fueling my passion for crafting seamless digital experiences.
+          Let's turn ideas into reality.
+        </p>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/harsh-meda-0ab2b11ba/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Harsh2Meda" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://x.com/meda_harsh" target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/harsh_meda/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
         </div>
-        <div class="home-content">
-            <h1>Hi, It's <span>HARSH</span></h1>
-            <h3 class="typing-text">I'm a <span></span></h3>
-            <p>
-                As a <span>Web Developer</span>, I blend creativity and technical expertise to build 
-                innovative solutions. My journey in tech spans <span>Software Development, Game Design, and competitive programming</span>,
-                each fueling my passion for crafting seamless digital experiences. 
-                Let's turn ideas into reality.
-            </p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/harsh-meda-0ab2b11ba/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/Harsh2Meda" target="_blank"><i class="fa-brands fa-github" ></i></a>
-                <a href="https://x.com/meda_harsh" target="_blank"><i class="fa-brands fa-x-twitter" ></i></a>
-                <a href="https://www.instagram.com/harsh_meda/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <a href="https://www.linkedin.com/in/harsh-meda-0ab2b11ba/" class="btn" target="_blank">Hire me</a>
-        </div>
+        <a
+          href="https://www.linkedin.com/in/harsh-meda-0ab2b11ba/"
+          class="btn"
+          target="_blank"
+          >Hire me</a
+        >
+      </div>
     </section>
-    
+
     <!-- Skills Section -->
     <section id="skills" class="skills">
-        <h2> Technical Skills</h2>
-        <p>My skills include a good hand on the softwares from various fields such as - </p>
-        <ul>
-            <li>Unity</li>
-            <li>Unreal Engine</li>
-            <li>JavaScript</li>
-            <li>Python</li>
+      <h2>Technical Skills</h2>
+
+      <div class="skills-container">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <ul>
             <li>Java</li>
-            <li>HTML/CSS</li>
+            <li>JavaScript (ES6+)</li>
+            <li>TypeScript</li>
             <li>C++</li>
-            <li>Adobe XD</li>
-            <li>MySQL</li>
-        </ul>
+            <li>Python</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Frameworks & Libraries</h3>
+          <ul>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>FastAPI</li>
+            <li>Tailwind CSS</li>
+            <li>SCSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Databases & Platforms</h3>
+          <ul>
+            <li>MongoDB</li>
+            <li>Firebase</li>
+            <li>Supabase</li>
+            <li>Redis</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Game Development</h3>
+          <ul>
+            <li>Unreal Engine 5</li>
+            <li>Unity</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools & DevOps</h3>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Docker</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <div class="section-title">
-            <h2>Projects</h2>
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+      <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project">
+          <a
+            href="https://fake-review-detection-and-deletion.vercel.app/"
+            target="_blank"
+          >
+            <img src="yt\review_gaurd.png" alt="Project 1 Thumbnail" />
+          </a>
+          <h3>Review Guard</h3>
+          <p>
+            A batch review analysis platform which helps in detecting and
+            deleting fake reviews in bulk through automated algorithms.
+          </p>
         </div>
-        <div class="projects-container">
-            <!-- Project 1 -->
-            <div class="project">
-                <a href="https://youtu.be/OEmupKH3JFc" target="_blank">
-                    <img src=yt\YT_thumbnail_1.png alt="Project 1 Thumbnail">
-                </a>
-                <h3>Unreal Engine Game</h3>
-                <p>This is a First Person Shooter game developed in Unreal Engine.</p>
-            </div>
-    
-            <!-- Project 2 -->
-            <div class="project">
-                <a href="https://youtu.be/2TMddrilJMU" target="_blank">
-                    <img src=yt\YT_thumnail_2.png alt="Project 2 Thumbnail">
-                </a>
-                <h3>3D Scene/Movie</h3>
-                <p>A 3d Sunset scene created in Unreal.</p>
-            </div>
-            
+
+        <!-- Project 2 -->
+        <div class="project">
+          <a href="https://youtu.be/OEmupKH3JFc" target="_blank">
+            <img src="yt\YT_thumbnail_1.png" alt="Project 2 Thumbnail" />
+          </a>
+          <h3>Survive The Night (Beta)</h3>
+          <p>
+            This is a First Person Shooter game developed in Unreal Engine
+            showcasing the understanding of core game development principles.
+          </p>
         </div>
-        <h4>*More to be added</h4>
+
+        <!-- Project 3 -->
+        <div class="project">
+          <a href="https://youtu.be/2TMddrilJMU" target="_blank">
+            <img src="yt\cloud_store.png" alt="Project 3 Thumbnail" />
+          </a>
+          <h3>CloudStore</h3>
+          <p>A cloud-based storage solution for managing and sharing files.</p>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project">
+          <a href="https://youtu.be/2TMddrilJMU" target="_blank">
+            <img src="yt\YT_thumnail_2.png" alt="Project 4 Thumbnail" />
+          </a>
+          <h3>3D Scene/Movie</h3>
+          <p>A 3d Sunset scene created in Unreal.</p>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out through the following methods.</p>
+      <h2 align="center">Contact</h2>
+      <p>
+        Open to freelance & full-time opportunities — let's build impactful
+        products together.
+      </p>
+      <div class="contact-cta">
         <ul>
-            <li>Email: <a href="mailto:harshmeda2@gmail.com">harshmeda2@gmail.com</a></li>
-            <li><a href="https://wa.me/917974378342?text=Hello,%20I'm%20interested%20in%20your%20services." target="_blank" class="btn">
-                <i class="fa-brands fa-whatsapp"></i> +91 7974378342
-            </a></li>
+          <li>
+            <a href="yt/resume NEW.pdf" class="btn" target="_blank"
+              ><i class="fa-solid fa-file-lines"></i> Download Resume</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://calendly.com/your-username"
+              class="btn"
+              target="_blank"
+              ><i class="fa-regular fa-calendar"></i> Schedule a call</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/harsh-meda-0ab2b11ba/"
+              class="btn"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i> Connect on LinkedIn</a
+            >
+          </li>
         </ul>
+      </div>
+      <ul>
+        <li>
+          <a
+            href="mailto:harshmeda2@gmail.com"
+            class="btn"
+            style="margin: 1.25rem 0"
+            target="_blank"
+            >harshmeda2@gmail.com</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://wa.me/917974378342?text=Hello,%20I'm%20interested%20in%20your%20services."
+            target="_blank"
+            class="btn"
+          >
+            <i class="fa-brands fa-whatsapp"></i> +91 7974378342
+          </a>
+        </li>
+      </ul>
     </section>
-</body>
+    <script id="nav-active-fix">
+      const sections = document.querySelectorAll("section");
+      const navLinks = document.querySelectorAll("nav a");
+
+      window.addEventListener("scroll", () => {
+        let current = "";
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop - 100;
+          if (scrollY >= sectionTop) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
